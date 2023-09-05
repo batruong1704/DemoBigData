@@ -1,0 +1,31 @@
+Product Code,Product Name,Category,Price,Stock Quantity,Expiry Date,Manufacturer
+12345,Apple,Fruit,0.5,150,2023-09-15,FruitCo
+23456,Banana,Fruit,0.3,200,2023-09-18,FruitCo
+34567,Milk,Dairy,1.2,50,2023-09-20,DairyCo
+45678,Bread,Bakery,2.0,100,2023-09-14,BakeryCo
+56789,Chicken,Meat,5.0,30,2023-09-12,MeatCo
+67890,Rice,Grains,1.5,80,2023-12-31,GrainFarms
+78901,Tomato,Vegetable,0.8,120,2023-09-16,VeggieGarden
+89012,Water,Drinks,0.7,250,2023-10-30,BeverageCo
+90123,Soap,Personal Care,1.0,70,2024-05-15,SoapWorks
+01234,Toothpaste,Personal Care,1.5,40,2024-03-25,DentalCare
+12346,Orange,Fruit,0.6,120,2023-09-20,FruitCo
+23457,Grapes,Fruit,1.0,80,2023-09-22,FruitCo
+34568,Yogurt,Dairy,1.8,70,2023-09-18,DairyCo
+45679,Croissant,Bakery,1.5,90,2023-09-15,BakeryCo
+56790,Beef,Meat,6.5,40,2023-09-10,MeatCo
+67891,Pasta,Grains,2.0,120,2023-12-31,PastaProducers
+78902,Cucumber,Vegetable,0.6,150,2023-09-17,VeggieGarden
+89013,Cola,Drinks,1.2,200,2023-10-30,BeverageCo
+90124,Shampoo,Personal Care,2.5,60,2024-06-10,CosmeticsLtd
+01235,Soap Bar,Personal Care,0.8,100,2024-03-15,SoapWorks
+12347,Pineapple,Fruit,1.2,60,2023-09-25,FruitCo
+23458,Blueberries,Fruit,1.2,100,2023-09-21,FruitCo
+34569,Cheese,Dairy,3.0,40,2023-09-24,DairyCo
+45680,Baguette,Bakery,1.8,80,2023-09-13,BakeryCo
+56791,Salmon,Meat,8.5,25,2023-09-09,SeafoodInc
+67892,Oats,Grains,1.2,150,2023-12-31,HealthyHarvest
+78903,Bell Pepper,Vegetable,0.7,100,2023-09-19,VeggieGarden
+89014,Orange Juice,Drinks,1.2,120,2023-11-15,BeverageCo
+90125,Toilet Paper,Household,2.0,50,2024-08-01,EssentialsCorp
+01236,Deodorant,Personal Care,1.2,80,2024-04-20,CosmeticsLtd
