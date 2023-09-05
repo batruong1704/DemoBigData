@@ -4,7 +4,7 @@ from pyspark.sql.functions import split
 
 spark = SparkSession \
     .builder \
-    .appName("StructuredNetworkWordCount") \
+    .appName("Xay Dung Ung Dung Dem Tu") \
     .config("spark.sql.adaptive.enabled", "false") \
     .getOrCreate()
 

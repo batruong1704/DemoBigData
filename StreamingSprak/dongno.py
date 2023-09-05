@@ -1,6 +1,7 @@
+# Đếm dữ liệu file readme
 from pyspark.sql import SparkSession
 
-logFile = "C:\Program Files\spark-3.4.1-bin-hadoop3/README.md"  # Should be some file on your system
+logFile = "C:\PySpark\Project\README.md"  # Should be some file on your system
 spark = SparkSession.builder.appName("SimpleApp").getOrCreate()
 logData = spark.read.text(logFile).cache()
 
