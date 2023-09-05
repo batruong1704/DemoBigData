@@ -12,13 +12,18 @@ data.createOrReplaceTempView("temp_view")
 data.createOrReplaceGlobalTempView("global_temp_view")
 
 # Truy vấn Temporary View, Global Temporary View  từ phiên làm việc gốc
+print("* Phiên gốc: ")
+print("TemporaryView:")
 spark.sql("SELECT * FROM temp_view").show()
+print("GlobalTempView:")
 spark.sql("SELECT * FROM global_temp.global_temp_view").show()
 
 
 # Khởi tạo một phiên làm việc mới
 spark2 = spark.newSession()
-
+print("* Phiên khác: ")
 # Truy vấn Global Temporary View từ phiên làm việc mới, còn TemporaryView thì đéo được đâu :))
+print("GlobalTempView:")
 spark2.sql("SELECT * FROM global_temp.global_temp_view").show()
+print("TemporaryView:")
 spark2.sql("SELECT * FROM temp_view").show()
