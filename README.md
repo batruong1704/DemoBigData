@@ -158,24 +158,24 @@ result.show()
 
 🥵 Các hàm có thể sử dụng cho việc xử lý:
 
-| Hàm                         | Mô Tả                                                                                   |
+| Hàm                         | Mô Tả                                                                                    |
 |-----------------------------|------------------------------------------------------------------------------------------|
-| sum(col)                    | Tính tổng giá trị của một cột cụ thể trong cửa sổ.                                      |
-| avg(col)                    | Tính giá trị trung bình của một cột cụ thể trong cửa sổ.                                |
-| min(col)                    | Tìm giá trị nhỏ nhất của một cột cụ thể trong cửa sổ.                                   |
-| max(col)                    | Tìm giá trị lớn nhất của một cột cụ thể trong cửa sổ.                                  |
-| first(col)                  | Lấy giá trị đầu tiên của một cột cụ thể trong cửa sổ.                                  |
-| last(col)                   | Lấy giá trị cuối cùng của một cột cụ thể trong cửa sổ.                                 |
-| lead(col, n)                | Lấy giá trị của cột cụ thể n hàng sau trong cửa sổ.                                    |
-| lag(col, n)                 | Lấy giá trị của cột cụ thể n hàng trước trong cửa sổ.                                  |
+| sum(col)                    | Tính tổng giá trị của một cột cụ thể trong cửa sổ.                                       |
+| avg(col)                    | Tính giá trị trung bình của một cột cụ thể trong cửa sổ.                                 |
+| min(col)                    | Tìm giá trị nhỏ nhất của một cột cụ thể trong cửa sổ.                                    |
+| max(col)                    | Tìm giá trị lớn nhất của một cột cụ thể trong cửa sổ.                                    |
+| first(col)                  | Lấy giá trị đầu tiên của một cột cụ thể trong cửa sổ.                                    |
+| last(col)                   | Lấy giá trị cuối cùng của một cột cụ thể trong cửa sổ.                                   |
+| lead(col, n)                | Lấy giá trị của cột cụ thể n hàng sau trong cửa sổ.                                      |
+| lag(col, n)                 | Lấy giá trị của cột cụ thể n hàng trước trong cửa sổ.                                    |
 | row_number()                | Đánh số hàng trong cửa sổ từ 1 đến n, dựa trên sắp xếp đã định nghĩa.                    |
-| rank()                      | Xếp hạng hàng trong cửa sổ dựa trên giá trị của cột cụ thể.                            |
-| dense_rank()                | Xếp hạng hàng trong cửa sổ mà không có giá trị xếp hạng trùng lặp.                     |
-| percent_rank()              | Tính xếp hạng hàng dưới dạng phần trăm, từ 0 đến 1.                                     |
-| ntile(n)                    | Chia dữ liệu thành n phần bằng nhau và trả về số phần mà hàng hiện tại thuộc về.        |
-| cume_dist()                 | Tính xác suất cột cụ thể có giá trị không lớn hơn giá trị hiện tại.                     |
-| lead(col, n, default)      | Giống như lead và lag, nhưng có thể chỉ định giá trị mặc định nếu không có hàng thỏa mãn. |
-| lag(col, n, default)       | Giống như lead và lag, nhưng có thể chỉ định giá trị mặc định nếu không có hàng thỏa mãn. |
-| collect_list(col)           | Tạo danh sách các giá trị trong cửa sổ.                                                |
-| collect_set(col)            | Tạo tập hợp các giá trị trong cửa sổ.                                                   |
-| count(col)                  | Đếm số hàng trong cửa sổ.                                                              |
+| rank()                      | Xếp hạng hàng trong cửa sổ dựa trên giá trị của cột cụ thể.                              |
+| dense_rank()                | Xếp hạng hàng trong cửa sổ mà không có giá trị xếp hạng trùng lặp.                       |
+| percent_rank()              | Tính xếp hạng hàng dưới dạng phần trăm, từ 0 đến 1.                                      |
+| ntile(n)                    | Chia dữ liệu thành n phần bằng nhau và trả về số phần mà hàng hiện tại thuộc về.         |
+| cume_dist()                 | Tính xác suất cột cụ thể có giá trị không lớn hơn giá trị hiện tại.                      |
+| lead(col, n, default)       | Giống như lead và lag, nhưng có thể chỉ định giá trị mặc định nếu không có hàng thỏa mãn.|
+| lag(col, n, default)        | Giống như lead và lag, nhưng có thể chỉ định giá trị mặc định nếu không có hàng thỏa mãn.|
+| collect_list(col)           | Tạo danh sách các giá trị trong cửa sổ.                                                  |
+| collect_set(col)            | Tạo tập hợp các giá trị trong cửa sổ.                                                    |
+| count(col)                  | Đếm số hàng trong cửa sổ.                                                                |
